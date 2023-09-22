@@ -1,1 +1,3 @@
-This is a example file for testing
+This is a example file for testing.
+
+Adding new row.
