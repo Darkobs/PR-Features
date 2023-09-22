@@ -2,7 +2,7 @@ name: Pull Request Title Enforcement
 
 on:
   pull_request:
-    types: [opened, edited, reopened]
+    types: [opened, edited, synchronize, reopened]
     branches:
       - main
 
