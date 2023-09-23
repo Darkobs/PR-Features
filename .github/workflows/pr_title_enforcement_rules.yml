@@ -14,8 +14,8 @@ jobs:
       - uses: deepakputhraya/action-pr-title@master
         with:
           regex: '[A-Za-z]+\/[A-Za-z]+-[0-9]+\s-\s[A-Za-z]+' # Regex the title should match.
-          allowed_prefixes: 'feature,fix,JIRA' # title should start with the given prefix
-          disallowed_prefixes: 'feat/,hotfix' # title should not start with the given prefix
+          allowed_prefixes: 'docs,feat,fix,hotfix,story,task' # title should start with the given prefix
+          disallowed_prefixes: '' # title should not start with the given prefix
           prefix_case_sensitive: false # title prefix are case insensitive
           min_length: 10 # Min length of the title
           max_length: 100 # Max length of the title
